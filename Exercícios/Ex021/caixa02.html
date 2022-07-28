@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightpink;
+        }
+        header > h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 3em;
+        }
+        header > h1:hover{
+            color: rgb(201, 142, 152);
+        }
+
+        header{
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.397);
+            border-radius: 1px 15px 15px 15px;
+        }
+        footer{
+            background-color: pink;
+            color: purple;
+            text-align: right;
+            padding: 1px;
+            margin: 0;
+        }
+        header > nav > a{
+            padding: 30px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(130, 39, 148);
+        }
+        a:hover{
+            color: rgb(85, 7, 85);
+        }
+        article{
+            padding: 5px;
+            background-color: rgb(253, 208, 216);
+        }
+        article > aside{
+            color: rgb(219, 100, 120);
+            background-color: rgb(245, 195, 204);
+            padding: 3px;
+        }
+        #nottit{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(167, 148, 87);
+        }
+        #noticia{
+            padding: 10px 100px;
+            color: rgb(77, 9, 20);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        
+        </section>
+        <section>
+            <article>
+                <h2 id="nottit">&#x26A0 Noticia Urgente &#x26A0</h2>
+                <p id="noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatem repellat voluptatibus velit unde excepturi facilis illum nobis consequatur inventore cumque atque. Sequi nihil, adipisci doloribus perspiciatis eveniet distinctio! Quae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vel distinctio quibusdam, rem obcaecati ipsum ea itaque, aliquid quia voluptatibus reiciendis labore incidunt non qui. Sequi, voluptatum velit? Quaerat, omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem beatae, laudantium veniam eum modi dolorum eligendi maiores ea, aliquid similique delectus explicabo commodi ipsam vero. Facere hic molestiae consequuntur ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, amet! Magni maiores sed cupiditate dolorum debitis deleniti, molestiae et aliquid magnam officia vel blanditiis sapiente obcaecati praesentium consectetur ducimus id.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel qui blanditiis iste non, quam quas ad porro incidunt, fuga nihil enim sunt officiis ea dicta provident molestiae nobis ipsa dignissimos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quidem voluptates distinctio enim molestiae eos magnam deleniti aperiam sed laborum officia nulla a fugit corporis, perspiciatis neque suscipit minima alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum expedita quia commodi. Ipsa quam quo aspernatur error aperiam rem fugiat laudantium enim dolorem, tempore sint labore facere nihil veritatis.
+                </p>
+                <aside>Artigo escrito por José Almeida Pinto</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por ninguém</p>
+    </footer>
+</body>
+</html>
